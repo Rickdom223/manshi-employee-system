@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "removed_attribute": "gender",
+  "other_data_unchanged": true,
+  "employees": 31,
+  "accounts": 32,
+  "backup": "E:\\PS work\\manshi-employee-system\\backend\\backups\\before-remove-gender-20261028-104144-df09dd.sqlite3"
+}

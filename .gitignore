@@ -1,0 +1,25 @@
+.env
+.venv/
+.tools/
+npm-runtime.tgz
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+backups/
+test-results/
+deploy/nginx.generated.conf
+deploy/nginx.pid
+*.xlsx
+deploy/runtime/
+
+.test-run-*/
+.runtime-*/
+
+# 用户要求在私有GitHub仓库保存当前数据库快照
+!/backend/data/manshi.sqlite3
+*.zip

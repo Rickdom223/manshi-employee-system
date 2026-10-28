@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "id": "AC-12/13-clean-admin",
+      "status": "passed"
+    },
+    {
+      "id": "AC-14-bootstrap-real-HR",
+      "status": "passed"
+    },
+    {
+      "id": "AC-15-create-employee-name-account",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TAB-01/02/03-open-switch-dedup",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TAB-04-close-affix",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TAB-05-refresh-and-history",
+      "status": "passed"
+    },
+    {
+      "id": "AC-21-four-fixed-departments-UI",
+      "status": "passed"
+    },
+    {
+      "id": "AC-06-attendance-rule-form",
+      "status": "passed"
+    },
+    {
+      "id": "AC-08-salary-form-and-dashboard",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TAB-06-account-isolation",
+      "status": "passed"
+    },
+    {
+      "id": "AC-05-punch-UI",
+      "status": "passed"
+    },
+    {
+      "id": "AC-07/20-unassigned-pending",
+      "status": "passed"
+    },
+    {
+      "id": "AC-19/20-assign-supervisor",
+      "status": "passed"
+    },
+    {
+      "id": "AC-22-leave-disables-live-session",
+      "status": "passed"
+    },
+    {
+      "id": "AC-23-departed-account-UI",
+      "status": "passed"
+    },
+    {
+      "id": "AC-24-rehire-admin-enable-original",
+      "status": "passed"
+    },
+    {
+      "id": "AC-17-password-client-validation-and-relogin",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TAB-07/SEC-04-role-revocation-cleanup",
+      "status": "passed"
+    },
+    {
+      "id": "SPA-refresh-api-404-and-narrow-tabs",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

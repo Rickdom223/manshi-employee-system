@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "id": "UI-TAB-01",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-02",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-03",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-04",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-05",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-06",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-08-dirty",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-08-form-cache",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-08-overflow",
+      "status": "通过"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,25 @@
+{
+  "employees": 30,
+  "active_employees": 27,
+  "departed_employees": 3,
+  "accounts": 31,
+  "system_admins": 1,
+  "departments": 4,
+  "positions": 23,
+  "supervisors": 4,
+  "active_monthly_base_salary": "222900.00",
+  "already_installed": false,
+  "database": "E:\\PS work\\manshi-employee-system\\backend\\data\\manshi.sqlite3",
+  "backup": "E:\\PS work\\manshi-employee-system\\backend\\backups\\before-approved-roster-20261028-092206-f711e1.sqlite3",
+  "started_from_empty": true,
+  "old_rows_copied": 0,
+  "empty_business_tables": {
+    "salaries": 0,
+    "punch_records": 0,
+    "leave_requests": 0,
+    "attendance_records": 0,
+    "payroll_records": 0,
+    "production_tasks": 0,
+    "sessions": 0
+  }
+}

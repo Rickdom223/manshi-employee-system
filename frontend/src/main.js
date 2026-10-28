@@ -1,0 +1,11 @@
+import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
+import 'element-plus/dist/index.css'
+import './style.css'
+import './workspace.css'
+import App from './V3App.vue'
+import WorkspaceDialog from './components/WorkspaceDialog.vue'
+import { router } from './router/v3router'
+import {pinia} from './stores/pinia'
+createApp(App).component('WorkspaceDialog',WorkspaceDialog).use(pinia).use(ElementPlus, { locale: zhCn }).use(router).mount('#app')

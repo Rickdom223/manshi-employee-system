@@ -1,0 +1,62 @@
+{
+  "result": "passed",
+  "summary": {
+    "employees": 31,
+    "users": 32,
+    "departments": 4,
+    "punch_records": 11,
+    "attendance_rules": 1,
+    "leave_requests": 1,
+    "salaries": 2,
+    "staff_status": {
+      "active": 28,
+      "resigned": 3
+    },
+    "roles": {
+      "EMPLOYEE": 26,
+      "HR": 1,
+      "SUPERVISOR": 4,
+      "SYS_ADMIN": 1
+    }
+  },
+  "checks": [
+    "all 21 table fingerprints preserved through two startups",
+    "new employee visible",
+    "HR leave and salary visible",
+    "single admin and four roles preserved",
+    "departed accounts disabled",
+    "static page and API authentication working",
+    "six attendance cases and exact timestamps preserved"
+  ],
+  "attendance": [
+    {
+      "name": "韩涛",
+      "status": "正常"
+    },
+    {
+      "name": "吴琪",
+      "status": "迟到"
+    },
+    {
+      "name": "孙颖",
+      "status": "早退"
+    },
+    {
+      "name": "林墨",
+      "status": "缺下班卡"
+    },
+    {
+      "name": "赵欣",
+      "status": "缺勤"
+    },
+    {
+      "name": "周可",
+      "status": "已批准请假"
+    }
+  ],
+  "package": "E:\\PS work\\manshi-cloud-current-data-20261028-145931.zip",
+  "exported_at": "2026-10-28T14:59:31+08:00",
+  "verified_tables": 21,
+  "local_business_data_unchanged": true,
+  "cloud_deployed": false
+}

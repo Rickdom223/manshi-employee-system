@@ -1,0 +1,1 @@
+<template><el-result icon="warning" title="404 · 页面不存在" sub-title="请检查地址或返回工作看板"><template #extra><router-link to="/"><el-button type="primary">返回首页</el-button></router-link></template></el-result></template>

@@ -1,0 +1,6 @@
+apps:
+  - port: 3000
+    run: sh start.sh
+    root: .
+    name: 满氏吉他制琴有限公司企业员工管理系统
+    mainPort: true

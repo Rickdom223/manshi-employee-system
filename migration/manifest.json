@@ -1,0 +1,111 @@
+{
+  "format_version": 1,
+  "exported_at": "2026-10-28T15:53:17+08:00",
+  "database_sha256": "5016aa0325d1c56dba079d9b313e2b6c5669d0efa38cbc4752d759b7d5333fbf",
+  "tables": {
+    "alembic_version": {
+      "rows": 1,
+      "sha256": "a8325bc64363e590b1330744d921cbd6910f2c07322f86eda24117ccbf1caec9"
+    },
+    "attendance_records": {
+      "rows": 0,
+      "sha256": "5bfb5f013c7bcdc9703ad530d31121581170eab021cce0a74f7e8240c7e1cea4"
+    },
+    "attendance_rules": {
+      "rows": 1,
+      "sha256": "2437357217a173c602e4c19b375bc331eaaf287bc1e2aa89d9ca0d902a0f8f4c"
+    },
+    "audit_logs": {
+      "rows": 7,
+      "sha256": "6bc187bca9d1523fde1314f2f84b4b88bc5b7fd83f7ef4f62b83ca6a2196fddb"
+    },
+    "department_supervisors": {
+      "rows": 4,
+      "sha256": "eeb2c97fa026c61e310f296b1ca54747aecc5798c08d49b2725690318256fbaa"
+    },
+    "departments": {
+      "rows": 4,
+      "sha256": "313e54a5281246bc0304dd8e233905e8ebeb60f71d91c698baefd58d855a4ce3"
+    },
+    "employee_skills": {
+      "rows": 0,
+      "sha256": "9cbbc70e712dee743ac06a619561cb4fb2b4f3abfb5e6d3265b9b2dc6ab3cc49"
+    },
+    "employees": {
+      "rows": 31,
+      "sha256": "1dad19dfea689df6808e81373226baa7da5ba40df186d7b44c569048f0131370"
+    },
+    "employment_events": {
+      "rows": 3,
+      "sha256": "0b6cf764079b84f9aca84db30b2d16f53775994e0530131760f67f9bdcd83885"
+    },
+    "initial_data_state": {
+      "rows": 1,
+      "sha256": "f196074b4473ca7e4452cb4facf00e54883233520e87f9f69ea358a231520200"
+    },
+    "leave_requests": {
+      "rows": 1,
+      "sha256": "db520b81354a1270b127c0d0e9aee657d2577096378b55ff648074a328ec09e2"
+    },
+    "number_sequences": {
+      "rows": 0,
+      "sha256": "78e5955720e5cc701ab2958c3444bfec905e45b3d6e0ccb139e76057f950f27a"
+    },
+    "payroll_records": {
+      "rows": 0,
+      "sha256": "8ad06363abc80ab013a18798fbced2d67b240ac0511af7feae0c5c5b8b77196b"
+    },
+    "positions": {
+      "rows": 23,
+      "sha256": "8420bd92c2f9cd12d689a25459f5ed367cd43acf4530597c392cda4e9c3d43e8"
+    },
+    "production_task_members": {
+      "rows": 0,
+      "sha256": "4afc3da3b1ca8856bb627adde12e0276ddd8ec18a15d3acb9f5ef2db8f0c5763"
+    },
+    "production_tasks": {
+      "rows": 0,
+      "sha256": "90dd86c15cd01ca6065b7791b88d33831d05b9071e8a4dabbd1d74fa33683b4f"
+    },
+    "punch_records": {
+      "rows": 11,
+      "sha256": "5e3041fc00729b1cb6ae11b8dfa34c46985a253c630fd08bf3ead7d6c9d3b10f"
+    },
+    "quality_inspections": {
+      "rows": 0,
+      "sha256": "7753b8b3383a0cd53f6da9ef2cb7f1469c87bbac15b528b9f7d8e93b109109e0"
+    },
+    "salaries": {
+      "rows": 2,
+      "sha256": "2acc09d42677fbccf9ac4fa6d6d7ff0d7b7ef6306a7a67bfae5110c78d68e523"
+    },
+    "skills": {
+      "rows": 0,
+      "sha256": "ffd69393fcb7252c78f291b0327bcfe4748fdc793f8a23d504f72a3c08cb546d"
+    },
+    "users": {
+      "rows": 32,
+      "sha256": "aa79553e1d29bc97631cd38712498cc91578bf1f601e2a1f138c1e8a3b40c0d8"
+    }
+  },
+  "summary": {
+    "employees": 31,
+    "users": 32,
+    "departments": 4,
+    "punch_records": 11,
+    "attendance_rules": 1,
+    "leave_requests": 1,
+    "salaries": 2,
+    "staff_status": {
+      "active": 28,
+      "resigned": 3
+    },
+    "roles": {
+      "EMPLOYEE": 26,
+      "HR": 1,
+      "SUPERVISOR": 4,
+      "SYS_ADMIN": 1
+    }
+  },
+  "sessions": "cleared in cloud snapshot only; account passwords unchanged"
+}

@@ -1,0 +1,1 @@
+﻿{"results": [{"path": "/admin/dashboard", "status": 200, "spa": true}, {"path": "/employee/profile", "status": 200, "spa": true}, {"path": "/api/does-not-exist", "status": 404, "json": true}]}

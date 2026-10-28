@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "id": "UI-TAB-07-switch-account",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-09",
+      "status": "通过"
+    },
+    {
+      "id": "UI-TAB-07-expired",
+      "status": "通过"
+    }
+  ]
+}

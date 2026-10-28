@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "backup": "E:\\PS work\\manshi-employee-system\\backend\\backups\\pre-v3-20261027-203721.sqlite3",
+  "employees_preserved": 28,
+  "existing_credentials_preserved": 14,
+  "legacy_business_counts_preserved": {
+    "payroll_records": 23,
+    "attendance_records": 22,
+    "leave_requests": 8
+  },
+  "departments": 4,
+  "accounts": 31,
+  "employee_count": 28
+}

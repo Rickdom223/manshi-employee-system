@@ -1,0 +1,6 @@
+{
+  "backend_restart_persistence": "passed",
+  "cookie_csrf_via_vite_proxy": "passed",
+  "development_spa_refresh_api_boundary": "passed",
+  "development_launcher_start_and_stop": "passed"
+}

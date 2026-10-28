@@ -1,0 +1,13 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+SQLAlchemy==2.0.40
+pydantic==2.11.4
+PyJWT==2.10.1
+pwdlib[argon2]==0.2.1
+python-dotenv==1.1.0
+httpx==0.28.1
+pytest==8.3.5
+alembic==1.16.1
+openpyxl==3.1.5
+python-multipart==0.0.20
+tzdata==2025.2

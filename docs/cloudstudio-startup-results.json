@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "checks": [
+    {
+      "entry": "start.sh",
+      "result": "passed",
+      "ports_released": true,
+      "business_tables_unchanged": true,
+      "web_and_api_ready": true,
+      "exact_preview_host_allowed": true
+    },
+    {
+      "entry": "scripts\\start_cloudstudio.sh",
+      "result": "passed",
+      "ports_released": true,
+      "business_tables_unchanged": true,
+      "web_and_api_ready": true,
+      "exact_preview_host_allowed": true
+    }
+  ],
+  "local_business_data_unchanged": true,
+  "backend_env_unchanged": true,
+  "shell": "Git-provided sh on Windows",
+  "cloud_deployed": false,
+  "cloudstudio_linux_https_not_yet_verified": true
+}

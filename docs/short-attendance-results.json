@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "date": "2026-10-28",
+  "rule_id": 1,
+  "rule": {
+    "effective_date": "2026-10-28",
+    "start_time": "14:28:40",
+    "end_time": "14:30:40",
+    "late_grace_minutes": 0,
+    "early_grace_minutes": 0
+  },
+  "rows": [
+    {
+      "employee_no": "6",
+      "name": "韩涛",
+      "scenario": "normal",
+      "status": "正常",
+      "punch_in": "2026-10-28T14:28:10.860121",
+      "punch_out": "2026-10-28T14:30:42.015907",
+      "late_count": 0,
+      "early_count": 0,
+      "missing_punch_count": 0,
+      "absent_days": 0
+    },
+    {
+      "employee_no": "10",
+      "name": "吴琪",
+      "scenario": "late",
+      "status": "迟到",
+      "punch_in": "2026-10-28T14:34:44.625363",
+      "punch_out": "2026-10-28T14:34:44.651998",
+      "late_count": 1,
+      "early_count": 0,
+      "missing_punch_count": 0,
+      "absent_days": 0
+    },
+    {
+      "employee_no": "15",
+      "name": "孙颖",
+      "scenario": "early",
+      "status": "早退",
+      "punch_in": "2026-10-28T14:28:10.887427",
+      "punch_out": "2026-10-28T14:29:40.016468",
+      "late_count": 0,
+      "early_count": 1,
+      "missing_punch_count": 0,
+      "absent_days": 0
+    },
+    {
+      "employee_no": "16",
+      "name": "林墨",
+      "scenario": "missing",
+      "status": "缺下班卡",
+      "punch_in": "2026-10-28T14:28:10.896528",
+      "punch_out": null,
+      "late_count": 0,
+      "early_count": 0,
+      "missing_punch_count": 1,
+      "absent_days": 0
+    },
+    {
+      "employee_no": "7",
+      "name": "赵欣",
+      "scenario": "absent",
+      "status": "缺勤",
+      "punch_in": null,
+      "punch_out": null,
+      "late_count": 0,
+      "early_count": 0,
+      "missing_punch_count": 0,
+      "absent_days": 1
+    },
+    {
+      "employee_no": "14",
+      "name": "周可",
+      "scenario": "leave",
+      "status": "已批准请假",
+      "punch_in": "2026-10-28T14:28:43.004211",
+      "punch_out": "2026-10-28T14:30:42.032375",
+      "late_count": 0,
+      "early_count": 0,
+      "missing_punch_count": 0,
+      "absent_days": 0
+    }
+  ],
+  "backup": "E:\\PS work\\manshi-employee-system\\backend\\backups\\before-short-attendance-2026-10-28-54100a6cbf8d.sqlite3",
+  "existing_records_preserved": 2,
+  "credentials_unchanged": true,
+  "new_punch_records": 9
+}

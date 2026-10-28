@@ -1,0 +1,323 @@
+{
+  "results": [
+    {
+      "name": "代理与 SPA",
+      "status": "通过"
+    },
+    {
+      "name": "登录与工作看板",
+      "status": "通过"
+    },
+    {
+      "name": "新增员工与部门岗位联动",
+      "status": "通过"
+    },
+    {
+      "name": "编辑员工并读取详情",
+      "status": "通过"
+    },
+    {
+      "name": "分配两项技能与调整熟练度",
+      "status": "通过"
+    },
+    {
+      "name": "组合技能筛选",
+      "status": "通过"
+    },
+    {
+      "name": "离职归档与状态筛选",
+      "status": "通过"
+    },
+    {
+      "name": "字典页面与新增编辑停用",
+      "status": "通过"
+    },
+    {
+      "name": "笔记本布局与同源请求",
+      "status": "通过"
+    },
+    {
+      "name": "深层路由刷新后重新登录与404",
+      "status": "通过"
+    }
+  ],
+  "apiRequests": [
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/auth/login"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/auth/me"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/dashboard/summary"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=&status=active&page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=100"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/employees"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=&status=active&page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=&status=active&page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=100"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/employees/7/skills"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/employees/7/skills"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/employees/7/skills/1"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "DELETE",
+      "url": "http://127.0.0.1:3000/api/employees/7/skills/2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/employees/7/skills"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees/7"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=&status=active&page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=UI_3024947976&status=active&skill_id=1&page=1&page_size=20"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/employees/7/archive"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=UI_3024947976&status=active&skill_id=1&page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/employees?keyword=UI_3024947976&status=resigned&skill_id=1&page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=20"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/departments"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=20"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/departments/6"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=20"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/departments/6"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=20&department_id=6"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/positions"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/departments?page=1&page_size=100"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/positions/3"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=20"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/positions/3"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/positions?page=1&page_size=20"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=20"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/skills"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=20"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/skills/4"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=20"
+    },
+    {
+      "method": "PATCH",
+      "url": "http://127.0.0.1:3000/api/skills/4"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/skills?page=1&page_size=20"
+    },
+    {
+      "method": "POST",
+      "url": "http://127.0.0.1:3000/api/auth/login"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/auth/me"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/dashboard/summary"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3000/api/dashboard/summary"
+    }
+  ],
+  "pageErrors": []
+}
