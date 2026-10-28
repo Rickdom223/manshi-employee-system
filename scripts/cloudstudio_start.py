@@ -157,10 +157,12 @@ def prepare(root, env, npm, skip_install=False):
 
 def service_command(python, port, root, env):
     arguments = ('app.main:app', '--host', '127.0.0.1', '--port', str(port))
-    if Path(python).resolve() == Path(sys.executable).resolve():
-        return uvicorn_command(*arguments)
+    # POSIX virtualenv executables may symlink to the system binary. Preserve
+    # the venv invocation path so its installed dependencies remain available.
     if os.name != 'nt':
         return [str(python), '-m', 'uvicorn', *arguments]
+    if Path(python).resolve() == Path(sys.executable).resolve():
+        return uvicorn_command(*arguments)
     runtime = json.loads(run([python, '-c', 'import sys,sysconfig,json;print(json.dumps([sys._base_executable,sysconfig.get_path("purelib")]))'], root, env, capture=True))
     bootstrap = f'import sys,runpy;sys.path.insert(0,{runtime[1]!r});runpy.run_module("uvicorn",run_name="__main__")'
     return [runtime[0], '-c', bootstrap, *arguments]

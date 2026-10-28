@@ -42,6 +42,10 @@ sh start.sh --preview-url 'https://这里替换为实际预览域名'
 
 ## 检查与其他入口
 
+### Ubuntu 在第4步退出
+
+第4步失败意味着后端进程退出，前端3000尚未启动，应先查看 `tail -n 60 deploy/runtime/cloudstudio-backend.log`，不需要先开放8000公网端口。已修复Linux虚拟环境Python符号链接被误认作系统Python的启动问题。已安装依赖的旧副本可先在项目根目录执行 `backend/.venv/bin/python scripts/cloudstudio_start.py --skip-install`；更新启动脚本后继续使用 `sh start.sh`。如果仍然失败，按日志定位具体原因。
+
 ```bash
 sh start.sh --check                 # 仅检查版本和端口
 sh start.sh --prepare-only          # 安装依赖并准备配置、数据，暂不启动

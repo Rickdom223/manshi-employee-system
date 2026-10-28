@@ -6,12 +6,30 @@ from pathlib import Path
 import socket
 import sqlite3
 import sys
+from types import SimpleNamespace
 
 import pytest
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT/'scripts'))
 import cloudstudio_start as launcher
+
+
+def test_posix_venv_symlink_keeps_virtualenv_interpreter(tmp_path, monkeypatch):
+    python = tmp_path/'backend/.venv/bin/python'
+    actual_binary = Path(sys.executable).resolve()
+    original_resolve = Path.resolve
+    def resolve_shared_binary(path, *args, **kwargs):
+        if str(path) in {str(python), sys.executable}:
+            return actual_binary
+        return original_resolve(path, *args, **kwargs)
+    # Linux virtualenv Python often resolves to the system binary, while its
+    # invocation path still determines which site-packages are loaded.
+    monkeypatch.setattr(launcher, 'os', SimpleNamespace(name='posix'))
+    monkeypatch.setattr(Path, 'resolve', resolve_shared_binary)
+    monkeypatch.setattr(launcher, 'uvicorn_command', lambda *args: ['wrong-system-python', *args])
+    command = launcher.service_command(python, 8000, tmp_path, {})
+    assert command == [str(python), '-m', 'uvicorn', 'app.main:app', '--host', '127.0.0.1', '--port', '8000']
 
 
 def test_exact_preview_origin_from_platform():
